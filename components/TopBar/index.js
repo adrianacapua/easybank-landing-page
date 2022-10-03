@@ -10,7 +10,7 @@ const index = () => {
     <TopBarStyle>
       <Logo />
       <NavBar />
-      <Button />
+      <Button title={'Request Invite'} />
     </TopBarStyle>
   )
 }

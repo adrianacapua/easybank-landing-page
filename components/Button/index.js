@@ -1,10 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const index = () => {
+const index = (props) => {
+  const { title } = props;
+
   return (
     <ButtonStyle>
-      <button>Request Invite</button>
+      <button>{title}</button>
     </ButtonStyle>
   )
 }
