@@ -92,12 +92,12 @@ export const GlobalCSS = createGlobalStyle`
     margin: 0;
   }
 
-  h1 { font-size: 3.25rem; margin-top: 0.9em;margin-bottom: 0.45em; font-weight: 300; line-height: 1.5; letter-spacing: -.006em;}
-  h2 { font-size: 2.313rem; margin-top: 0.60em;margin-bottom: 0.45em; font-weight: 400; line-height: 1.5; letter-spacing: -.006em;}
-  h3 { font-size: 2rem; margin-top: 0.60em;margin-bottom: 0.45em; font-weight: 400; line-height: 1.5; letter-spacing: -.006em;}
-  h4 { font-size: 1.563rem; margin-top: 0.60em;margin-bottom: 0.45em; font-weight: 400; line-height: 1.5;}
-  h5 { font-size: 1.375rem; margin-top: 0.60em;margin-bottom: 0.45em; font-weight: 400; line-height: 1.5;}
-  h6 { font-size: 0.875rem;margin-bottom: 0.45em; font-weight: 400; line-height: 1.5;}
+  h1 { font-size: 4rem; margin: 0; font-weight: 300; line-height: 1.25; letter-spacing: -.006em;}
+  h2 { font-size: 3.25rem; margin: 0; font-weight: 400; line-height: 1.25; letter-spacing: -.006em;}
+  h3 { font-size: 2.75rem; margin: 0; font-weight: 400; line-height: 1.25; letter-spacing: -.006em;}
+  h4 { font-size: 2rem; margin: 0; font-weight: 400; line-height: 1.25;}
+  h5 { font-size: 1.563rem; margin: 0; font-weight: 400; line-height: 1.25;}
+  h6 { font-size: 1.375rem; margin: 0; font-weight: 400; line-height: 1.25;}
 
   p {
     font-size: 1rem;
