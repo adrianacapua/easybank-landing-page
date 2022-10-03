@@ -24,10 +24,10 @@ const index = () => {
 }
 
 const HomeStyle = styled.div`
-  height: calc(100vh - 50px);
+  height: calc(100vh - 80px);
   background-color: ${(props) => props.theme.color.lightGray};
   /* position: relative; */
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
 
   > div {
@@ -60,13 +60,13 @@ const BgIntroDesktopStyle = styled.div`
   
   svg {
     position: absolute;
-    top: -200px;
+    top: -120px;
     left: 50px;
   }
 
   img {
     position: absolute;
-    top: -80px;
+    top: 50px;
     right: -80px;
   }
 `;

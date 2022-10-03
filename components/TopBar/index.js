@@ -17,11 +17,13 @@ const index = () => {
 
 const TopBarStyle = styled.div`
   display: flex;
+  position: absolute;
   justify-content: space-around;
   align-items: center;
   background-color: ${(props) => props.theme.color.white};
   width: 100%;
   height: 80px;
+  z-index: ${(props) => props.theme.zIndex.z1};
 `;
 
 export default index;
