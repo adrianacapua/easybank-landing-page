@@ -32,7 +32,8 @@ const AppTheme = {
     lightGrayishBlue: 'hsl(220, 16%, 96%)',
     veryLightGray: 'hsl(0, 0%, 98%)',
 
-    buttonColor: '#33D35E',
+    buttonColorGreen: '#67D333',
+    buttonColorCyan: '#2AB6D9',
     linkColor: '#30C88F',
     bodyColor: '#2D314D',
     bodyLightColor: '#9597A5',
@@ -117,6 +118,10 @@ export const GlobalCSS = createGlobalStyle`
   a:focus {
     outline: none;
     text-decoration: none;
+  }
+
+  button {
+    cursor: pointer;
   }
 
   b { font-weight: 600; }
