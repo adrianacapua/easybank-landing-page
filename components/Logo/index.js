@@ -1,15 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
-import EasyBankLogo from '~/static/Logo.svg';
+import EasyBankLogo from '~/static/logo.svg';
+import EasyBankLogoWhite from '~/static/logo-white.svg';
 
-const index = () => {
+const index = (props) => {
   return (
-    <LogoStyle><EasyBankLogo /></LogoStyle>
+    <LogoStyle>
+      {props.white ? <EasyBankLogoWhite /> : <EasyBankLogo />}
+    </LogoStyle>
   )
 }
 
 const LogoStyle = styled.div`
-  padding: 10px;
   display: flex;
   justify-content: center;
 `;

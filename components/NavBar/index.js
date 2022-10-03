@@ -18,14 +18,26 @@ const index = () => {
 export default index;
 
 const NavBarStyle = styled.div`
-  font-size: ${(props) => props.theme.fontSizes.font_body_small};
+  font-size: ${(props) => props.theme.fontSizes.font_body};
   color: ${(props) => props.theme.color.bodyLightColor};
 
   ul, li {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 50px;
     padding: 0;
+    margin: 0;
+  }
+
+  li {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  li:hover {
+    border-bottom: 5px solid ${(props) => props.theme.color.linkColor};
   }
 
   a {
