@@ -10,7 +10,7 @@ const index = () => {
   return (
     <AboutStyle>
       <Heading>
-        <h3>Why choose Easybank?</h3>
+        <h2>Why choose Easybank?</h2>
         <p>We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
       </Heading>
       <Main>
@@ -49,11 +49,12 @@ const AboutStyle = styled.div`
   flex-direction: column;
   justify-content: space-around;
 
-  padding: 10rem 14rem;
+  padding: 10rem 0;
 `;
 
 const Heading = styled.div`
-  max-width: 50%;
+  min-width: 1400px;
+  margin: 0 auto;
   p {
     color: ${(props) => props.theme.color.bodyLightColor};
     font-size: ${(props) => props.theme.fontSizes.font_lead};
@@ -62,6 +63,8 @@ const Heading = styled.div`
 `;
 
 const Main = styled.div`
+  max-width: 1400px;
+  margin: 0 auto;
   display: flex;
   gap: 3rem;
   justify-content: space-evenly;

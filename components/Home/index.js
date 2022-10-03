@@ -26,8 +26,6 @@ const index = () => {
 const HomeStyle = styled.div`
   height: calc(100vh - 80px);
   background-color: ${(props) => props.theme.color.lightGray};
-  /* position: relative; */
-  /* overflow: hidden; */
   display: flex;
 
   > div {
